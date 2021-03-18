@@ -92,11 +92,11 @@ function loadPlatforms() {
 // load Mario animation
 function MarioAnimation(){
   mario=createSprite(gameConfig.startingPointX, gameConfig.startingPointY, gameConfig.startingPoint, 0.30);
-  mario.addAnimation("stand",'imgs/mario/mario06.png');
-  mario.addAnimation("move",'imgs/mario/mario01.png','imgs/mario/mario03.png');
-  mario.addAnimation("crouch",'imgs/mario/mario18.png');
-  mario.addAnimation("jump",'imgs/mario/mario05.png');
-  mario.addAnimation("dead",'imgs/mario/mario24.png');
+  mario.addAnimation("stand",'./mario06.png');
+  mario.addAnimation("move",'./mario01.png','./mario03.png');
+  mario.addAnimation("crouch",'./mario18.png');
+  mario.addAnimation("jump",'./mario05.png');
+  mario.addAnimation("dead",'./mario24.png');
 };
 
 
