@@ -1,12 +1,12 @@
 
 
-var mountainImages = [ 'imgs/scene/mountains01.png', 'imgs/scene/mountains02.png', 'imgs/scene/mountains03.png', 'imgs/scene/mountains04.png'];
-var cloudImages = [ 'imgs/scene/cloud01.png', 'imgs/scene/cloud02.png'];
-var brickImages = [ 'imgs/blocks/blocks001.png', 'imgs/blocks/blocks002.png', 'imgs/blocks/blocks003.png'];
-var coinsImags = [ 'imgs/blocks/coin01.png', 'imgs/blocks/coin05.png' ];
-var pipeImages = [ 'imgs/scene/tube.png' ];
-var platformImages = [ 'imgs/scene/platform.png' ];
-var enemyMushroomImage = [ 'imgs/enemy/enemyMushroom01.png','imgs/enemy/enemyMushroom02.png'];
+var mountainImages = [ './mountains01.png', './mountains02.png', './mountains03.png', './mountains04.png'];
+var cloudImages = [ './cloud01.png', './cloud02.png'];
+var brickImages = [ './blocks001.png', './blocks002.png', './blocks003.png'];
+var coinsImags = [ './coin01.png', './coin05.png' ];
+var pipeImages = [ './tube.png' ];
+var platformImages = [ './platform.png' ];
+var enemyMushroomImage = [ './enemyMushroom01.png','/enemyMushroom02.png'];
 
 var spriteNumber={
   mountain: 6,
